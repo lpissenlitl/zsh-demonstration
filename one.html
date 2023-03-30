@@ -1,44 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>中国石化</title>
     <link href="assets/css/one.css" rel="stylesheet">
+
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/img/logo.png" rel="icon">
 </head>
+
 <body>
-    <div class="main">
-        <h2>单分型面注射模具（两板模）</h2>
-        <p>模具结构文字描述：<br>分流道位于分型面上，需切除流道凝料<br>据统计，两板式模具约占全部注射模具的70%
-        </p>
-        <div class="center">
-            <div class="left"><p>模具结构爆炸图：</p><img src="assets/img/11.png"></div>
-            <div class="right">
-            <ul>
-                <ol>1 - 定位圈</ol>
-                <ol>2 - 主流道衬套</ol>
-                <ol>3 - 定模座板</ol>
-                <ol>4 - 定模板</ol>
-                <ol>5 - 动模板</ol>
-                <ol>6 - 动模垫板</ol>
-                <ol>7 - 动模底座</ol>
-                <ol>8 - 推出固定板</ol>
-                <ol>9 - 推板</ol>
-                <ol>10 - 拉料杆</ol>
-                <ol>11 - 推杆</ol>
-                <ol>12 - 导柱</ol>
-                <ol>13 - 型芯</ol>
-                <ol>14 - 凹模</ol>
-                <ol>15 - 冷却水通道</ol>
-            </ul>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex justify-content-between">
+
+            <div class="logo">
+                <h1><a href="index.html"><img src="assets/img/logo.png"></a></h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto" href="index.html">首页</a></li>
+                    <li><a class="nav-link scrollto" href="index.html">关于我们</a></li>
+                    <li class="dropdown"><a href="#"><span>产品信息</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">高分子基础知识</a></li>
+                            <li><a href="#">产品数据库</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="nav-link scrollto active" href="#"><span>成型工艺</span> <i
+                                class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li class="dropdown"><a href="#"><span>注塑</span> <i class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="#">工艺介绍</a></li>
+                                    <li><a href="#">注塑装备</a></li>
+                                    <li><a href="mold.html">注塑模具</a></li>
+                                    <li><a href="#">注塑工艺</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">挤出</a></li>
+                            <li><a href="#">吹塑</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>产品应用</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li class="dropdown"><a href="#"><span>家电</span> <i class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li class="dropdown"><a href="#"><span>洗衣机</span> <i
+                                                class="bi bi-chevron-right"></i></a>
+                                        <ul>
+                                            <li><a href="#">波轮</a></li>
+                                            <li><a href="#">滚筒</a></li>
+                                            <li><a href="#">双桶</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#"><span>冰冷</span> <i
+                                                class="bi bi-chevron-right"></i></a>
+                                        <ul>
+                                            <li><a href="#">冰箱</a></li>
+                                            <li><a href="#">冰柜</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">空调</a></li>
+                                    <li class="dropdown"><a href="#"><span>小家电</span> <i
+                                                class="bi bi-chevron-right"></i></a>
+                                        <ul>
+                                            <li><a href="#">微波炉</a></li>
+                                            <li><a href="#">电饭煲</a></li>
+                                            <li><a href="#">消毒柜</a></li>
+                                            <li><a href="#">洗碗机</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">汽车</a></li>
+                            <li><a href="#">建材</a></li>
+                            <li><a href="#">医疗器械</a></li>
+                            <li><a href="#">食品包装</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>客服服务</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">技术支持</a></li>
+                            <li><a href="#">产品推介</a></li>
+                            <li><a href="#">培训</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+            <div class="search">
+                <input type="text"><a href=""><img src="assets/img/search.png" alt=""></a>
             </div>
         </div>
+    </header><!-- End Header -->
+    <div class="main">
+        <h5 style="font-weight: bold;">单分型面注射模具（两板模）</h5>
+        <div class="top">
+            <span>模具结构文字描述(文字说明)：</span>
+            <p>分流道位于分型面上，需切除流道凝料<br>据统计，两板式模具约占全部注射模具的70%</p>
+        </div>
+        <div class="center">
+            <div class="left">
+                <span>模具结构爆炸图(图片介绍)：</span><img src="assets/img/11.png">
+            </div>
+            <div class="right">
+                <ul>
+                    <ol>1 - 定位圈</ol>
+                    <ol>2 - 主流道衬套</ol>
+                    <ol>3 - 定模座板</ol>
+                    <ol>4 - 定模板</ol>
+                    <ol>5 - 动模板</ol>
+                    <ol>6 - 动模垫板</ol>
+                    <ol>7 - 动模底座</ol>
+                    <ol>8 - 推出固定板</ol>
+                    <ol>9 - 推板</ol>
+                    <ol>10 - 拉料杆</ol>
+                    <ol>11 - 推杆</ol>
+                    <ol>12 - 导柱</ol>
+                    <ol>13 - 型芯</ol>
+                    <ol>14 - 凹模</ol>
+                    <ol>15 - 冷却水通道</ol>
+                </ul>
+            </div>
+        </div>
+        <div class="demo">
+            <span>模具结构动画讲解(动画演示)：</span>
+            <video src="assets/img/singlemold.mp4" controls></video>
+        </div>
         <div class="bottom">
-            <p>模具结构动画讲解：</p>
-            <img src="assets/img/1.gif">
+            <span>模具结构虚拟操作</span>
         </div>
     </div>
+    <footer class="footer">
+        <div class="left">
+            <div id="footlogo"><img src="assets/img/bottomlogo .png"></div>
+            <div>
+                <img src="assets/img/address.png">
+                <span>地址：中国北京市朝阳区朝阳门北大街22号</span>
+            </div>
+            <div>
+                <img src="assets/img/zipcode.png">
+                <span>邮政编码：100728</span>
+            </div>
+            <div>
+                <img src="assets/img/phone.png">
+                <span>电话：86-10-59960114</span>
+            </div>
+            <div>
+                <img src="assets/img/technical.png">
+                <span>技术支持：石化盈科信息技术有限责任公司 电话：86-10-59966000</span>
+            </div>
+        </div>
+        <div class="right">
+            <img src="assets/img/QRcodeone.png">
+            <img src="assets/img/QRcodetwo.png">
+            <img src="assets/img/QRcodethree.png">
+        </div>
+    </footer>
 </body>
+
 </html>
