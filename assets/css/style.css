@@ -82,7 +82,7 @@ h6 {
   height: 70px;
   transition: all 0.5s;
   z-index: 997;
-  background: #000;
+  background: #fff;
 }
 
 #header .logo h1 {
@@ -97,14 +97,15 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 70px;
+  height: 60px;
 }
 
 @media (max-width: 992px) {
@@ -145,8 +146,9 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 12px 0;
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -166,7 +168,7 @@ h6 {
   height: 2px;
   bottom: 3px;
   left: 0;
-  background-color: #1bac91;
+  background-color: rgb(206, 2, 2) !important;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -183,7 +185,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #fff;
+  color: rgb(206, 2, 2);
 }
 
 .navbar .dropdown ul {
@@ -220,7 +222,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #1bac91;
+  color: rgb(206, 2, 2);
 }
 
 .navbar .dropdown:hover>ul {
@@ -250,7 +252,27 @@ h6 {
     left: -100%;
   }
 }
-
+.search {
+  position: relative;
+}
+.search input{
+  margin-top: 20px;
+  height: 28px;
+  width: 180px;
+  padding: 0 30px 0 10px;
+  font-size: 14px;
+  border-radius: 14px;
+  color: #000;
+  border: 1px solid #000;
+  outline: none;
+}
+.search img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 25px;
+  right: 8px;
+}
 /**
 * Mobile Navigation 
 */
@@ -366,6 +388,48 @@ h6 {
   display: block;
 }
 
+.aboutus {
+  margin: 0 auto;
+  width: 1350px;
+}
+.aboutus .top ul li{
+  float: left;
+  height: 30px;
+  list-style: none;
+  margin-right: 10px;
+  font-size: 18px !important;
+}
+.aboutus .top li #aa {
+  color: rgb(206, 2, 2);
+}
+.aboutus .top li #ab {
+  color: black;
+}
+.aboutus .bottom1, .aboutus .bottom2 {
+  margin-top: 50px;
+  margin-left: 100px;
+  width: 1150px;
+}
+
+.aboutus .bottom1 img {
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+.aboutus .bottom1 p, .aboutus .bottom2 p{
+  text-indent: 2em;
+  font-size: 18px !important;
+  margin-top: 50px;
+}
+.aboutus .bottom2 {
+  display: none;
+}
+.aboutus .bottom2 img {
+  float: left;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -632,11 +696,11 @@ section {
   border: 0;
   padding: 20px;
   transition: 0.3s;
-  color: #21413c;
+  color: rgb(206, 2, 2);
 }
 
 .features .nav-link:hover {
-  color: #1bac91;
+  color: rgb(206, 2, 2);
 }
 
 .features .nav-link h4 {
@@ -1368,6 +1432,35 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+.footer {
+  width: 1080px;
+  height: 300px;
+  font-size: 14px;
+  margin: 0 auto;
+}
+.footer .left {
+  float: left;
+}
+#footlogo img {
+  width: 317px;
+  height: 64px;
+  margin-bottom: 10px;
+}
+.footer .left div {
+  margin-top: 10px;
+}
+.footer .left img {
+  width: 20px;
+  margin-right: 10px;
+}
+.footer .right {
+  float: left;
+  margin-left: 310px;
+  margin-top: 50px;
+}
+.footer .right img {
+  margin-left: 5px;
+}
 #footer {
   background: black;
   padding: 0 0 30px 0;
