@@ -1,0 +1,19 @@
+.teach {
+    width: 800px;
+    height: 500px;
+    margin: 100px auto;
+}
+.teach ul {
+    margin-left: 128px;
+}
+.teach ul li {
+    list-style: none;
+    float: left;
+    margin-right: 30px;
+}
+.teach ul li a {
+    color: black;
+}
+.teach .active {
+    color: rgb(206, 2, 2);
+}

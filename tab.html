@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中国石化</title>
+
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/css/tab.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/img/logo.png" rel="icon">
+</head>
+
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex justify-content-between">
+
+            <div class="logo">
+                <h1><a href="index.html"><img src="assets/img/logo.png"></a></h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">首页</a></li>
+                    <li><a class="nav-link scrollto" href="#aboutus">关于我们</a></li>
+                    <li class="dropdown"><a href="#"><span>产品信息</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">高分子基础知识</a></li>
+                            <li><a href="tab.html">产品数据库</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>成型工艺</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li class="dropdown"><a href="#"><span>注塑</span> <i class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="#">工艺介绍</a></li>
+                                    <li class="dropdown"><a href="#"><span>注塑装备</span> <i
+                                                class="bi bi-chevron-right"></i></a>
+                                        <ul>
+                                            <li><a href="teach.html">注塑机操作</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="mold.html">注塑模具</a></li>
+                                    <li><a href="#">注塑工艺</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">挤出</a></li>
+                            <li><a href="#">吹塑</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>产品应用</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li class="dropdown"><a href="#"><span>家电</span> <i class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li class="dropdown"><a href="#"><span>洗衣机</span> <i
+                                                class="bi bi-chevron-right"></i></a>
+                                        <ul>
+                                            <li><a href="#">波轮</a></li>
+                                            <li><a href="#">滚筒</a></li>
+                                            <li><a href="#">双桶</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#"><span>冰冷</span> <i
+                                                class="bi bi-chevron-right"></i></a>
+                                        <ul>
+                                            <li><a href="#">冰箱</a></li>
+                                            <li><a href="#">冰柜</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">空调</a></li>
+                                    <li class="dropdown"><a href="#"><span>小家电</span> <i
+                                                class="bi bi-chevron-right"></i></a>
+                                        <ul>
+                                            <li><a href="#">微波炉</a></li>
+                                            <li><a href="#">电饭煲</a></li>
+                                            <li><a href="#">消毒柜</a></li>
+                                            <li><a href="#">洗碗机</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">汽车</a></li>
+                            <li><a href="#">建材</a></li>
+                            <li><a href="#">医疗器械</a></li>
+                            <li><a href="#">食品包装</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>客服服务</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">技术支持</a></li>
+                            <li><a href="#">产品推介</a></li>
+                            <li><a href="#">培训</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+            <div class="search">
+                <input type="text"><a href=""><img src="assets/img/search.png" alt=""></a>
+            </div>
+        </div>
+    </header><!-- End Header -->
+    <ul class="nav">
+        <li><a href="">高分子基础知识 |</a></li>
+        <li><a id="active" href="tab.html">产品数据库 |</a></li>
+    </ul>
+    <div class="tab">
+        <table border="1" cellspacing="0">
+            <tr>
+                <th>序号</th>
+                <th>制造厂商</th>
+                <th>塑料简称</th>
+                <th>塑料牌号</th>
+                <th>塑料类别</th>
+                <th>推荐成型温度</th>
+                <th>推荐模具温度</th>
+                <th>塑料降解温度</th>
+                <th>顶出温度</th>
+                <th>推荐剪切线速度</th>
+                <th>推荐注射速率</th>
+                <th>干燥方式</th>
+                <th>干燥温度</th>
+                <th>干燥时间</th>
+                <th>更新日期</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td></td>
+                <td>ABS</td>
+                <td>ABS810</td>
+                <td>无定形</td>
+                <td>225.00</td>
+                <td>55.00</td>
+                <td>300.00</td>
+                <td>110.00</td>
+                <td>0.20</td>
+                <td></td>
+                <td>真空干燥</td>
+                <td>90</td>
+                <td>4</td>
+                <td>2022-04-20 09:42:22</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>圆融</td>
+                <td>PC+ABS</td>
+                <td>PC/ABS 102</td>
+                <td>无定形</td>
+                <td>280.00</td>
+                <td>70.00</td>
+                <td>1.00</td>
+                <td>1.00</td>
+                <td>1.00</td>
+                <td>1.00</td>
+                <td>真空干燥</td>
+                <td>1</td>
+                <td>1</td>
+                <td>2022-03-17 16:34:10</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Jiupan</td>
+                <td>ABS</td>
+                <td>ABS Xjiupan 1</td>
+                <td>结晶型</td>
+                <td>240.00</td>
+                <td>60.00</td>
+                <td>1.00</td>
+                <td>102.00</td>
+                <td>240.00</td>
+                <td></td>
+                <td>真空干燥</td>
+                <td>1</td>
+                <td>1</td>
+                <td>2022-04-20 10:01:23</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>LG</td>
+                <td>ABS</td>
+                <td>HI-121</td>
+                <td>结晶型</td>
+                <td>225.00</td>
+                <td>55.00</td>
+                <td>300.00</td>
+                <td>106.00</td>
+                <td>240.00</td>
+                <td>1.00</td>
+                <td>真空干燥</td>
+                <td>80</td>
+                <td>4</td>
+                <td>2022-04-20 10:01:23</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td></td>
+                <td>PET</td>
+                <td>PET JSL001</td>
+                <td>结晶型</td>
+                <td>260.00</td>
+                <td>100.00</td>
+                <td>300.00</td>
+                <td>110.00</td>
+                <td>260.00</td>
+                <td>30.00</td>
+                <td>真空干燥</td>
+                <td>90</td>
+                <td>4</td>
+                <td>2022-04-25 11:11:39</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td></td>
+                <td>PA6</td>
+                <td>PA6+30%GF</td>
+                <td>结晶型</td>
+                <td>265.00</td>
+                <td>85.00</td>
+                <td>300.00</td>
+                <td>110.00</td>
+                <td>265.00</td>
+                <td>30.00</td>
+                <td>真空干燥</td>
+                <td>90</td>
+                <td>4</td>
+                <td>2022-04-25 11:11:39</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td></td>
+                <td>ABS</td>
+                <td>BS+PC6</td>
+                <td>结晶型</td>
+                <td>260.00</td>
+                <td>265.00</td>
+                <td>220.00</td>
+                <td>80.00</td>
+                <td>260.00</td>
+                <td>60.00</td>
+                <td>真空干燥</td>
+                <td>59</td>
+                <td>6</td>
+                <td>2023-02-06 11:12:43</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td></td>
+                <td>ABS</td>
+                <td>BS+PC6</td>
+                <td>结晶型</td>
+                <td>260.00</td>
+                <td>265.00</td>
+                <td>220.00</td>
+                <td>80.00</td>
+                <td>260.00</td>
+                <td>60.00</td>
+                <td>真空干燥</td>
+                <td>59</td>
+                <td>6</td>
+                <td>2023-02-06 11:12:43</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Styrolution</td>
+                <td>ASA</td>
+                <td>2013876</td>
+                <td>结晶型</td>
+                <td>260.00</td>
+                <td>265.00</td>
+                <td>220.00</td>
+                <td>80.00</td>
+                <td>260.00</td>
+                <td>60.00</td>
+                <td>除湿干燥</td>
+                <td>59</td>
+                <td>6</td>
+                <td>2023-02-06 11:12:43</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Styrolution</td>
+                <td>ASA</td>
+                <td>Luran S 778 T</td>
+                <td>结晶型</td>
+                <td>260.00</td>
+                <td>265.00</td>
+                <td>220.00</td>
+                <td>80.00</td>
+                <td>260.00</td>
+                <td>60.00</td>
+                <td>除湿干燥</td>
+                <td>59</td>
+                <td>6</td>
+                <td>2023-02-06 11:12:43</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>INEOS Styrolution</td>
+                <td>ASA</td>
+                <td>Luran S 796 M</td>
+                <td>结晶型</td>
+                <td>260.00</td>
+                <td>265.00</td>
+                <td>220.00</td>
+                <td>80.00</td>
+                <td>260.00</td>
+                <td>60.00</td>
+                <td>真空干燥</td>
+                <td>59</td>
+                <td>6</td>
+                <td>2023-02-06 11:12:43</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>INEOS Styrolution</td>
+                <td>ASA+PC</td>
+                <td>Luran S KR 2861/1 C</td>
+                <td>结晶型</td>
+                <td>260.00</td>
+                <td>265.00</td>
+                <td>220.00</td>
+                <td>80.00</td>
+                <td>260.00</td>
+                <td>60.00</td>
+                <td>真空干燥</td>
+                <td>59</td>
+                <td>6</td>
+                <td>2023-02-06 11:12:43</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td></td>
+                <td>ABS</td>
+                <td>BS+PC6</td>
+                <td>结晶型</td>
+                <td>260.00</td>
+                <td>265.00</td>
+                <td>220.00</td>
+                <td>80.00</td>
+                <td>260.00</td>
+                <td>60.00</td>
+                <td>真空干燥</td>
+                <td>59</td>
+                <td>6</td>
+                <td>2023-02-06 11:12:43</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td></td>
+                <td>ABS</td>
+                <td>BS+PC6</td>
+                <td>结晶型</td>
+                <td>260.00</td>
+                <td>265.00</td>
+                <td>220.00</td>
+                <td>80.00</td>
+                <td>260.00</td>
+                <td>60.00</td>
+                <td>真空干燥</td>
+                <td>59</td>
+                <td>6</td>
+                <td>2023-02-06 11:12:43</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td></td>
+                <td>ABS</td>
+                <td>BS+PC6</td>
+                <td>结晶型</td>
+                <td>260.00</td>
+                <td>265.00</td>
+                <td>220.00</td>
+                <td>80.00</td>
+                <td>260.00</td>
+                <td>60.00</td>
+                <td>真空干燥</td>
+                <td>59</td>
+                <td>6</td>
+                <td>2023-02-06 11:12:43</td>
+            </tr>
+        </table>
+    </div>
+    <footer class="footer">
+        <div class="left">
+          <div id="footlogo"><img src="assets/img/bottomlogo .png"></div>
+          <div>
+            <img src="assets/img/address.png">
+            <span>地址：中国北京市朝阳区朝阳门北大街22号</span>
+          </div>
+          <div>
+            <img src="assets/img/zipcode.png">
+            <span>邮政编码：100728</span>
+          </div>
+          <div>
+            <img src="assets/img/phone.png">
+            <span>电话：86-10-59960114</span>
+          </div>
+          <div>
+            <img src="assets/img/technical.png">
+            <span>技术支持：石化盈科信息技术有限责任公司 电话：86-10-59966000</span>
+          </div>
+        </div>
+        <div class="right">
+          <img src="assets/img/QRcodeone.png">
+          <img src="assets/img/QRcodetwo.png">
+          <img src="assets/img/QRcodethree.png">
+        </div>
+      </footer>
+</body>
+
+</html>

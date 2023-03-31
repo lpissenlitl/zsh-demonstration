@@ -1,10 +1,23 @@
 .content {
     width: 1400px;
-    margin: 0 auto;
+    margin: 100px auto;
 }
-.content h2 {
-    margin-top: 30px;
-    margin-left: 38px;
+.content .nav {
+    margin-left: 430px;
+}
+.content .nav li{
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+}
+.content .nav li a {
+    color: black;
+}
+.content .nav .active {
+    color: rgb(206, 2, 2);
+}
+.content p {
+    margin: 10px 0 10px 45px;
 }
 .picture {
     margin: 0 auto;
