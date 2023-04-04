@@ -1,38 +1,141 @@
-.login {
+#fullbg {
     width: 100%;
-    height: 500px;
-    margin: 200px auto;
-    background-image: url(../img/banner.png);
+    height: 100%;
+    background-color: gray;
+    left: 0;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.3;
+    -khtml-opacity: 0.3;
+    display: none;
 }
-.textinput {
-    width: 300px;
-    height: 200px;
-    padding-top: 150px;
-    padding-left: 20px;
+#logins{
+    width: 500px;
+    height: 400px;
+    margin: -300px auto;
+    box-sizing: border-box;
+    background-color: white;
+    position: relative;
+    z-index: 9999;
+    display: none;
 }
-.login span {
-    font-size: 20px;
+.register {
+    width: 500px;
+    height: 400px;
+    margin: -300px auto;
+    box-sizing: border-box;
+    background-color: white;
+    position: relative;
+    z-index: 9999;
+    display: none;
 }
-.textinput1, .textinput2 {
+#logins .LoginTitle, .register p {
+    font-size: 22px;
+    padding-top: 10px;
+}
+#logins .LoginTitle ul li {
+    width: 130px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    margin-left: 55px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+#logins .ActivePhone {
+    border-bottom: 2px solid rgb(206, 2, 2);
+}
+#logins #close img, .register #off img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+#logins .LoginTitle ul li a {
+    text-decoration: none;
+    color: black;
+}
+#logins .LoginPhone .textinput1, .register .textinput1{
+    margin-top: 60px;
+    margin-left: 115px;
+    background-image: url(../img/phone_num.png);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position: 8px;
+}
+#logins .LoginEmail .textinput1 {
+    margin-top: 60px;
+    margin-left: 115px;
+    background-image: url(../img/name.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 8px;
+}
+#logins .LoginPhone .textinput2, .LoginEmail .textinput2, .register .textinput2 {
+    margin-left: 115px;
+    background-image: url(../img/password.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 8px;
+}
+#logins .LoginPhone .textinput1, .textinput2, .LoginEmail .textinput1, .textinput2, .register .textinput1, .textinput2 {
     outline: none;
-    width: 180px;
-    height: 30px;
-    border: 1px solid black;
-    border-radius: 10px;
+    width: 270px;
+    height: 34px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
     margin-bottom: 20px;
-    padding-left: 15px;
+    padding-left: 35px;
 }
-.textinput1 {
-    margin-left: 30px;
-}
-.textinput2 {
-    margin-left: 49px;
-}
-.textinput3 {
-    margin-left: 120px;
-    width: 80px;
-    height: 30px;
-    background-color: skyblue;
+#logins .LoginPhone button, .LoginEmail button, .register button {
+    margin-left: 115px;
+    width: 270px;
+    height: 34px;
+    background-color: rgb(206, 2, 2);
     border: none;
-    border-radius: 5px;
+    border-radius: 12px;
+    color: #fff;
+}
+#logins .LoginPhone span {
+    display: block;
+    margin-top: 10px;
+    margin-left: 330px;
+    cursor: pointer;
+    color: rgb(206, 2, 2);
+    text-decoration: underline;
+}
+#logins .LoginEmail {
+    display: none;
+}
+#logins .bottoms {
+    margin-left: 350px;
+    margin-top: 50px;
+}
+#logins .bottoms .icon {
+    float: left;
+    margin-right: 10px;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    box-sizing: border-box;
+}
+#logins .bottoms img {
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.register p {
+    text-align: center;
+}
+.register span {
+    display: block;
+    margin-left: 30px;
+    margin-top: 50px;
+    color: rgb(206, 2, 2);
+    cursor: pointer;
 }

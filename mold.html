@@ -19,102 +19,128 @@
 
 <body>
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-center">
-        <div class="container d-flex justify-content-between">
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
 
-            <div class="logo">
-                <h1><a href="index.html"><img src="assets/img/logo.png"></a></h1>
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-            </div>
+      <div class="logo">
+        <h1><a href="index.html"><img src="assets/img/logo.png"></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+      </div>
 
-            <nav id="navbar" class="navbar">
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html">首页</a></li>
+          <li><a class="nav-link scrollto" href="index.html">关于我们</a></li>
+
+          <li class="dropdown"><a href="#"><span>产品中心</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="#"><span>材料数据库</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                    <li><a class="nav-link scrollto" href="index.html">首页</a></li>
-                    <li><a class="nav-link scrollto" href="index.html">关于我们</a></li>
-                    <li class="dropdown"><a href="#"><span>产品信息</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="#">高分子基础知识</a></li>
-                            <li><a href="tab.html">产品数据库</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a class="nav-link scrollto active" href="#"><span>成型工艺</span> <i
-                                class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li class="dropdown"><a href="#"><span>注塑</span> <i class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li><a href="#">工艺介绍</a></li>
-                                    <li class="dropdown"><a href="#"><span>注塑装备</span> <i class="bi bi-chevron-right"></i></a>
-                                        <ul>
-                                          <li><a href="teach.html">注塑机操作</a></li>
-                                        </ul>
-                                      </li>
-                                    <li><a href="mold.html">注塑模具</a></li>
-                                    <li><a href="#">注塑工艺</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">挤出</a></li>
-                            <li><a href="#">吹塑</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>产品应用</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li class="dropdown"><a href="#"><span>家电</span> <i class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li class="dropdown"><a href="#"><span>洗衣机</span> <i
-                                                class="bi bi-chevron-right"></i></a>
-                                        <ul>
-                                            <li><a href="#">波轮</a></li>
-                                            <li><a href="#">滚筒</a></li>
-                                            <li><a href="#">双桶</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#"><span>冰冷</span> <i
-                                                class="bi bi-chevron-right"></i></a>
-                                        <ul>
-                                            <li><a href="#">冰箱</a></li>
-                                            <li><a href="#">冰柜</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">空调</a></li>
-                                    <li class="dropdown"><a href="#"><span>小家电</span> <i
-                                                class="bi bi-chevron-right"></i></a>
-                                        <ul>
-                                            <li><a href="#">微波炉</a></li>
-                                            <li><a href="#">电饭煲</a></li>
-                                            <li><a href="#">消毒柜</a></li>
-                                            <li><a href="#">洗碗机</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="#">汽车</a></li>
-                            <li><a href="#">建材</a></li>
-                            <li><a href="#">医疗器械</a></li>
-                            <li><a href="#">食品包装</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>客服服务</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="#">技术支持</a></li>
-                            <li><a href="#">产品推介</a></li>
-                            <li><a href="#">培训</a></li>
-                        </ul>
-                    </li>
+                  <li><a href="#">数据库结构</a></li>
+                  <li><a href="#">材料数据存储</a></li>
+                  <li><a href="#">材料数据检索</a></li>
                 </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
-            <div class="search">
-                <input type="text"><a href=""><img src="assets/img/search.png" alt=""></a>
-            </div>
+              </li>
+              <li><a href="#">材料性能预测</a></li>
+              <li><a href="#">新材料研发</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a class="nav-link scrollto active" href="#"><span>成型工艺</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="#"><span>注塑成型</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li class="dropdown"><a href="#"><span>基础理论</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="mold.html">注塑模具</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="#"><span>虚拟操作</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="teach.html">注塑机操作</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">智能工艺</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown"><a href="#"><span>挤出成型</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">基础理论</a></li>
+                  <li><a href="#">虚拟操作</a></li>
+                  <li><a href="#">智能工艺</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown"><a href="#"><span>吹塑成型</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">基础理论</a></li>
+                  <li><a href="#">虚拟操作</a></li>
+                  <li><a href="#">智能工艺</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#"><span>行业应用</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="#"><span>家用电器</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">洗衣机</a></li>
+                  <li><a href="#">冰冷</a></li>
+                  <li><a href="#">空调</a></li>
+                  <li><a href="#">小家电</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown"><a href="#"><span>汽车</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">内饰</a></li>
+                  <li><a href="#">车灯</a></li>
+                  <li><a href="#">功能件</a></li>
+                  <li><a href="#">保险杠</a></li>
+                  <li><a href="#">进气格栅</a></li>
+                  <li><a href="#">其他外饰</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#">消费电子</a></li>
+              <li><a href="#">医疗器械</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#"><span>客户服务</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">技术支持</a></li>
+              <li><a href="#">产品推介</a></li>
+              <li><a href="#">智能客服</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+      <div class="search">
+        <input type="text">
+        <div class="searchicon">
+          <a href=""><img src="assets/img/search.png" alt=""></a>
         </div>
-    </header><!-- End Header -->
+      </div>
+      <div class="login">
+        <ul>
+          <li id="dl">登录 |</li>
+          <li id="zc">注册 |</li>
+        </ul>
+      </div>
+    </div>
+  </header><!-- End Header -->
+
     <div class="content">
         <ul class="nav">
-            <li><a href="">工艺介绍 |</a></li>
-            <li><a href="teach.html">注塑装备 |</a></li>
-            <li><a class="active" href="">注塑模具 |</a></li>
-            <li><a href="">注塑工艺 |</a></li>
+            <li><a class="active" href="mold.html">基础理论 |</a></li>
+            <li><a href="teach.html">虚拟操作 |</a></li>
+            <li><a href="">智能工艺 |</a></li>
         </ul>
         <p>注塑模具典型结构:</p>
         <div class="picture">
