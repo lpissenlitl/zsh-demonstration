@@ -17,3 +17,64 @@
 .teach .active {
     color: rgb(206, 2, 2);
 }
+.fridge {
+    width: 800px;
+    height: 1000px;
+    margin: 100px auto;
+}
+.washing {
+    width: 800px;
+    height: 700px;
+    margin: 100px auto;
+}
+.process-basic{
+    width: 800px;
+    height: 400px;
+    margin: 100px auto;
+}
+.process-product{
+    width: 800px;
+    height: 600px;
+    margin: 100px auto;
+}
+
+.mold-teach {
+    width: 800px;
+    height: 400px;
+    margin: 100px auto;
+}
+.machine-basic{
+    width: 800px;
+    height: 1000px;
+    margin: 100px auto;
+}
+
+.machine-operate {
+    width: 800px;
+    height: 800px;
+    margin: 100px auto;
+}
+.process-introduce{
+    width: 800px;
+    height: 900px;
+    margin: 100px auto;
+}
+.process-init{
+    width: 800px;
+    height: 1px;
+    margin: 100px auto 40px auto;
+}
+.process-init ul {
+    margin-left: 128px;
+}
+.process-init ul li {
+    list-style: none;
+    float: left;
+    margin-right: 30px;
+}
+.process-init ul li a {
+    color: black;
+}
+.process-init .active {
+    color: rgb(206, 2, 2);
+}

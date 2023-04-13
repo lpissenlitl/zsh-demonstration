@@ -38,13 +38,16 @@
             <ul>
               <li class="dropdown"><a href="#"><span>材料数据库</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">数据库结构</a></li>
-                  <li><a href="#">材料数据存储</a></li>
-                  <li><a href="#">材料数据检索</a></li>
+                  <li><a href="polymer-search.html">材料数据检索</a></li>
                 </ul>
               </li>
-              <li><a href="#">材料性能预测</a></li>
-              <li><a href="#">新材料研发</a></li>
+              <li class="dropdown"><a href="#">材料性能预测<i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="polymer-calculate.html">数据采集</a></li>
+                  <li><a href="polymer-model.html">模型拟合</a></li>
+                </ul>
+              </li>
+              <li><a href="polymer-research.html">新材料研发</a></li>
             </ul>
           </li>
 
@@ -52,17 +55,35 @@
             <ul>
               <li class="dropdown"><a href="#"><span>注塑成型</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li class="dropdown"><a href="#"><span>基础理论</span> <i class="bi bi-chevron-right"></i></a>
-                    <ul>
-                      <li><a href="mold.html">注塑模具</a></li>
-                    </ul>
+                  <li><a href="basic.html"><span>基础理论</span></a>
                   </li>
-                  <li class="dropdown"><a href="#"><span>虚拟操作</span> <i class="bi bi-chevron-right"></i></a>
+                  <li><a href="product-design.html">产品设计</a></li>
+                  <li class="dropdown"><a href="#">注塑模具<i class="bi bi-chevron-right"></i></a>
                     <ul>
-                      <li><a href="teach.html">注塑机操作</a></li>
-                    </ul>
+                      <li><a href="mold.html">注塑模具基础理论</a></li>
+
+                      <li><a href="mold-teach.html">注塑模具装配教学</a></li>
+
+                      <li><a href="mold-trial.html">注塑模具智能试模</a></li>
+                    </ul>                  </li>
+                  <li class="dropdown"><a href="#"><span>注塑装备</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="machine-basic.html">注塑机基础理论</a></li>
+
+                      <li><a href="teach.html">注塑机操作教学</a></li>
+
+                      <li><a href="machine-operate.html">注塑机虚拟操作</a></li>
+                    </ul>     
                   </li>
-                  <li><a href="#">智能工艺</a></li>
+                  <li class="dropdown"><a href="#">注塑工艺 <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="process-introduce.html">注塑工艺介绍</a></li>
+
+                      <li><a href="process-init.html">初始工艺智能设置</a></li>
+
+                      <li><a href="process-optimize.html">成型缺陷智能修正</a></li>
+                    </ul>     
+                  </li>
                 </ul>
               </li>
 
@@ -88,8 +109,8 @@
             <ul>
               <li class="dropdown"><a href="#"><span>家用电器</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">洗衣机</a></li>
-                  <li><a href="#">冰冷</a></li>
+                  <li><a href="washing-machine.html">洗衣机</a></li>
+                  <li><a href="fridge.html">冰冷</a></li>
                   <li><a href="#">空调</a></li>
                   <li><a href="#">小家电</a></li>
                 </ul>
@@ -136,11 +157,22 @@
       </div>
     </div>
   </header><!-- End Header -->
-
-    <ul class="nav">
-        <li><a href="">高分子基础知识 |</a></li>
-        <li><a id="active" href="tab.html">产品数据库 |</a></li>
+  <ul class="nav">
+      <p>产品中心 > 材料数据库 > <strong>材料数据检索</strong></p>
+        <!-- <li><a href="">高分子基础知识 |</a></li>
+        <li><a id="active" href="polymer-search.html">产品数据库 |</a></li> -->
     </ul>
+    <form action="" style="text-align:center;">
+      制造厂家: <input type="text" name="abbreviation">
+      塑料类别: <input type="text" name="abbreviation">
+      塑料简称: <input type="password" name="trademark">
+      <input type="submit" value="重置"><br>
+      塑料牌号: <input type="text" name="manufacturer">
+      加工方式: <input type="text" name="abbreviation">
+      应用领域: <input type="text" name="abbreviation">
+      <input type="submit" value="搜索">
+      </form>
+
     <div class="tab">
         <table border="1" cellspacing="0">
             <tr>
@@ -446,3 +478,9 @@
 </body>
 
 </html>
+<!-- vue.js -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<!-- 引入样式 -->
+<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+<!-- 引入组件库 -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
