@@ -23,7 +23,7 @@
 }
 .register {
     width: 500px;
-    height: 400px;
+    height: 600px;
     margin: -300px auto;
     box-sizing: border-box;
     background-color: white;
@@ -66,6 +66,14 @@
     background-repeat: no-repeat;
     background-position: 8px;
 }
+.register .textinput1 {
+    margin-top: 1px;
+    margin-left: 115px;
+    background-image: url(../img/phone_num.png);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position: 8px;
+}
 #logins .LoginEmail .textinput1 {
     margin-top: 60px;
     margin-left: 115px;
@@ -81,7 +89,32 @@
     background-repeat: no-repeat;
     background-position: 8px;
 }
-#logins .LoginPhone .textinput1, .textinput2, .LoginEmail .textinput1, .textinput2, .register .textinput1, .textinput2 {
+.register .textinput3, .textinput4, .textinput5, .textinput6, .textinput7, .textinput8 {
+    margin-left: 115px;
+    background-image: url(../img/password.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 8px;
+}
+.register .textinput3 {
+    background-image: url(../img/name.png);
+}
+.register .textinput4 {
+    background-image: url(../img/yx.png);
+}
+.register .textinput5 {
+    background-image: url(../img/work.png);
+}
+.register .textinput6 {
+    background-image: url(../img/zw.png);
+}
+.register .textinput7 {
+    background-image: url(../img/hy.png);
+}
+.register .textinput8 {
+    background-image: url(../img/address.png);
+}
+#logins .LoginPhone .textinput1, .textinput2, .LoginEmail .textinput1, .textinput2, .register .textinput1, .textinput3, .textinput4, .textinput5, .textinput6, .textinput7, .textinput8{
     outline: none;
     width: 270px;
     height: 34px;
@@ -138,4 +171,7 @@
     margin-top: 50px;
     color: rgb(206, 2, 2);
     cursor: pointer;
+}
+#recede {
+    margin-top: 20px;
 }
